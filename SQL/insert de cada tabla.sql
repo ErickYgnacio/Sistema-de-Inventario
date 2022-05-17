@@ -44,5 +44,32 @@ INSERT INTO TIPO_CONFI (TipoConfi_TipoId, TipoConfi_Atributo) values ('4', 'ATRI
 INSERT INTO TIPO_CONFI (TipoConfi_TipoId, TipoConfi_Atributo) values ('4', 'ATRIBUTOX')
 
 
+-- ESTABILIZADOR
+
+INSERT INTO TIPO_CONFI (TipoConfi_TipoId, TipoConfi_Atributo) values ('6', 'MARCA')
+INSERT INTO TIPO_CONFI (TipoConfi_TipoId, TipoConfi_Atributo) values ('6', 'MODELO')
+INSERT INTO TIPO_CONFI (TipoConfi_TipoId, TipoConfi_Atributo) values ('6', 'SERIE')
+INSERT INTO TIPO_CONFI (TipoConfi_TipoId, TipoConfi_Atributo) values ('6', 'TIPO')
+INSERT INTO TIPO_CONFI (TipoConfi_TipoId, TipoConfi_Atributo) values ('6', 'COLOR')
+INSERT INTO TIPO_CONFI (TipoConfi_TipoId, TipoConfi_Atributo) values ('6', 'ESTADO')
+INSERT INTO TIPO_CONFI (TipoConfi_TipoId, TipoConfi_Atributo) values ('6', 'ATRIBUTOY')
+INSERT INTO TIPO_CONFI (TipoConfi_TipoId, TipoConfi_Atributo) values ('6', 'ATRIBUTOZ')
+INSERT INTO TIPO_CONFI (TipoConfi_TipoId, TipoConfi_Atributo) values ('6', 'ATRIBUTOX')
+
+-- TECLADO
+
+INSERT INTO TIPO_CONFI (TipoConfi_TipoId, TipoConfi_Atributo) values ('5', 'MARCA')
+INSERT INTO TIPO_CONFI (TipoConfi_TipoId, TipoConfi_Atributo) values ('5', 'MODELO')
+INSERT INTO TIPO_CONFI (TipoConfi_TipoId, TipoConfi_Atributo) values ('5', 'SERIE')
+INSERT INTO TIPO_CONFI (TipoConfi_TipoId, TipoConfi_Atributo) values ('5', 'TIPO')
+INSERT INTO TIPO_CONFI (TipoConfi_TipoId, TipoConfi_Atributo) values ('5', 'COLOR')
+INSERT INTO TIPO_CONFI (TipoConfi_TipoId, TipoConfi_Atributo) values ('5', 'ESTADO')
+INSERT INTO TIPO_CONFI (TipoConfi_TipoId, TipoConfi_Atributo) values ('5', 'ATRIBUTOY')
+INSERT INTO TIPO_CONFI (TipoConfi_TipoId, TipoConfi_Atributo) values ('5', 'ATRIBUTOZ')
+INSERT INTO TIPO_CONFI (TipoConfi_TipoId, TipoConfi_Atributo) values ('5', 'ATRIBUTOX')
+
+
+
+
 
 

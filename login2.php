@@ -52,7 +52,7 @@
                                                 <button type="submit" class="form-control btn btn-primary rounded submit px-3">Iniciar Sesión</button>
                                             </div>
                                             <?php
-                                                if($validacion == 0){ ?>
+                                                if(isset($credencialesIncorrectas) and $credencialesIncorrectas == 0){ ?>
                                             <div class="alert alert-danger text-center" role="alert">
                                                 Credenciales incorrectas
                                             </div>

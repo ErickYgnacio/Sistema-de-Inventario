@@ -54,7 +54,7 @@
         </div>
         <div class="sb-sidenav-footer">
             <div class="small">USUARIO:</div>
-            ADMIN
+            <?php echo($_SESSION['username']);?>
         </div>
     </nav>
 </div>

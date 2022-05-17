@@ -80,8 +80,7 @@ if (isset($_GET['tipoelem'])) {
                                     </div>
                                 </div>
                             </div>
-                            <input type="text" name="tipoelemento" value=<?php echo $_GET['tipoelem'] ?> hidden>
-                            <input type="text" name="atributos" value="<?php echo ($atributos); ?>" hidden>
+                            <input type="text" name="tipoelemento" value=<?php echo $_GET['tipoelem'] ?> hidden>                            
                         <?php
                         }
                         ?>

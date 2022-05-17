@@ -1,20 +1,18 @@
 <?php        
     session_start();
-    include('conexion.php');
-    $validacion = 1;    
-
-    // CONSULTA SI HAY USUARIO
-    //$usuarioQuery = "SELECT * FROM USUARIO WHERE";
+    include('conexion.php'); 
     
     if(isset($_POST['usuario']) AND isset($_POST['contrasenia'])){
-        $usuario = $_POST['usuario'];
-        $password = $_POST['contrasenia'];        
 
-        if($usuario == "admin" and $password=="12345"){
+        // CONSULTA SI HAY USUARIO
+        $queryUsuario = "SELECT * FROM USUARIO WHERE Us_Username = '$_POST[usuario]' and Us_Contrasenia='$_POST[contrasenia]'";
+        $resultadoUsuario = sqlsrv_query($conn,$queryUsuario);
+        
+        if( sqlsrv_has_rows($resultadoUsuario)){ // SI EXISTE UNA FILA
             include('variablesSesion.php');
-            header("location:index.php");
+            header('location:index.php');
         }else{
-            $validacion =0;
+            $credencialesIncorrectas = 0; // PARA MOSTRAR UN MENSAJE DE CREDENCIAL INCORRECTA EN EL ARCHIVO login2.php
         }
     }
 
